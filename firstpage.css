@@ -1,0 +1,220 @@
+body,
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.selection {
+    padding: 90px;
+}
+
+.selection select {
+    color: #000;
+    padding: 10px;
+}
+
+.selection h1 {
+    color: #000;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+
+.selection form {
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    gap: 1rem;
+}
+
+.selection input {
+    padding: 15px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid black;
+}
+
+.selection textarea {
+    height: 7rem;
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+}
+
+.selection button {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid black;
+    outline: none;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #000;
+    color: #fff;
+}
+
+@media (min-width:348px) {
+    .selection {
+        padding: 10px;
+    }
+    .selection h1 {
+        font-size: 20px;
+    }
+    .selection input {
+        width: 250px;
+    }
+    .selection select {
+        width: 250px;
+    }
+    .selection textarea {
+        width: 250px;
+    }
+    .selection button {
+        width: 250px;
+        padding: 7px;
+    }
+}
+
+@media (min-width:360px) {
+    .selection {
+        padding: 16px;
+    }
+}
+
+@media (min-width:380px) {
+    .selection {
+        padding: 30px;
+    }
+}
+
+@media (min-width:400px) {
+    .selection {
+        padding: 40px;
+    }
+}
+
+@media (min-width:420px) {
+    .selection {
+        padding: 45px;
+    }
+}
+
+@media (min-width:430px) {
+    .selection {
+        padding: 50px;
+    }
+    .selection input {
+        width: 300px;
+    }
+    .selection textarea {
+        width: 300px;
+    }
+    .selection select {
+        width: 300px;
+    }
+    .selection button {
+        width: 300px;
+    }
+    .selection h1 {
+        font-size: 25px;
+    }
+}
+
+@media (min-width:500px) {
+    .selection {
+        padding: 55px;
+    }
+    .selection input {
+        width: 330px;
+    }
+    .selection textarea {
+        width: 330px;
+    }
+    .selection select {
+        width: 330px;
+    }
+    .selection button {
+        width: 330px;
+    }
+}
+
+@media (min-width:530px) {
+    .selection {
+        padding: 60px;
+    }
+}
+
+@media (min-width:560px) {
+    .selection {
+        padding: 62px;
+    }
+    .selection h1 {
+        font-size: 30px;
+    }
+    .selection input {
+        width: 360px;
+    }
+    .selection textarea {
+        width: 360px;
+    }
+    .selection select {
+        width: 360px;
+    }
+    .selection button {
+        width: 360px;
+    }
+}
+
+@media (min-width:593px) {
+    .selection {
+        padding: 67px;
+    }
+}
+
+@media (min-width:614px) {
+    .selection {
+        padding: 68px;
+    }
+    .selection h1 {
+        font-size: 35px;
+    }
+    .selection input {
+        width: 390px;
+    }
+    .selection textarea {
+        width: 390px;
+    }
+    .selection select {
+        width: 390px;
+    }
+    .selection button {
+        width: 390px;
+    }
+}
+
+@media (min-width:660px) {
+    .selection {
+        padding: 73px;
+    }
+    .selection h1 {
+        font-size: 35px;
+    }
+    .selection input {
+        width: 420px;
+    }
+    .selection textarea {
+        width: 420px;
+    }
+    .selection select {
+        width: 420px;
+    }
+    .selection button {
+        width: 420px;
+    }
+}
