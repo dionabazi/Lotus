@@ -14,6 +14,7 @@
          isTrue = false;
      }
  });
+ //  m
  const rejects = document.querySelector('#reject');
  const sections = document.querySelector('#section');
 
